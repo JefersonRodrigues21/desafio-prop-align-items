@@ -1,0 +1,17 @@
+.container {
+    border: 5px solid black;
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row; /*eixo principal é HORIZONTAL*/
+    justify-content: center; 
+    align-items: center; /*alinhamento em linha no centro, conforme row*/
+}
+
+.item {
+    background-color: tomato;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
